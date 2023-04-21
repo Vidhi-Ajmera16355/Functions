@@ -12,7 +12,6 @@ int main()
     int r;
     printf("Enter radius of circle:\n");
     scanf("%d",&r);
-   int k = circle(r);
-   printf("%d",k);
+    circle(r);
     return 0;
 }
